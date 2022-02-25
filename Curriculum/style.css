@@ -1,0 +1,41 @@
+*{
+    padding: 0;
+    margin: 0;
+    color: rgb(0, 0, 0);
+    text-align: center;
+}
+
+html, body{
+    background-color: blueviolet;
+}
+
+.main-container{
+    border: 4px solid rgb(226, 222, 1);
+    border-radius: 20px;
+    background-color: darkgrey;
+    margin: 3rem;
+}
+
+article, footer{
+    border: 2px solid #002211;
+    margin: 1rem;
+    border-radius: 10px;
+    padding: 2px;
+}
+
+article, img{
+    width: 40%;
+    display: inline-table;
+}
+
+hr{
+    height: 5px;
+    background-color: black;
+    border:rgb(0, 0, 0);
+}
+
+img{
+    height: 200px;
+    width: 200px;
+    align-items: center;
+}
