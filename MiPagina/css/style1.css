@@ -1,0 +1,79 @@
+@keyframes anima_cion{
+    from{
+        background-color: rgb(128, 0, 0);
+    }
+    to{
+        background-color: rgb(131, 6, 143);
+    }
+}
+@keyframes anima_cion1{
+    from{
+        background-color: rgba(0, 128, 0, 0.678);
+    }
+    to{
+        background-color: rgba(98, 47, 17, 0.89);
+    }
+}
+
+
+body{
+    height: auto;
+    background-image: url("https://www.allcitycanvas.com/wp-content/uploads/2021/03/nuter-entrevista-h.webp");
+    background-size: cover;
+    background-repeat:no-repeat;
+    background-position: center center;
+    color: rgba(255, 255, 255, 0.856);
+    font-size: large;
+}
+article{
+    text-align: center;
+}
+
+footer{
+    text-align: center;
+}
+.button img{
+float: left;
+width: 50px;
+height: 40px;
+}
+
+.anim{
+    width: 70%;
+    background-color: rgba(red, green, blue, alpha);
+    color: white;
+    text-align: center;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    animation: anima_cion 5s alternate infinite;
+    font-size: large;
+    border: 120px;
+    border-radius: 30px;
+}
+
+.anim img{
+    width: 300px;
+    height: 200px;
+}
+
+.anim-2 img{
+width: 400px;
+height: 150px;
+}
+
+.anim-1{
+    width: 100%;
+    background-color: rgba(red, green, blue, alpha);
+    color: white;
+    text-align: center;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    animation: anima_cion1 5s alternate infinite;
+    border-radius: 50px;
+}
+
+.ultim{
+    color: black;
+}
