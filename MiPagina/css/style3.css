@@ -1,0 +1,45 @@
+@keyframes anima_cion{
+    from{
+        background-color: rgb(128, 0, 0);
+    }
+    to{
+        background-color: rgb(131, 6, 143);
+    }
+}
+
+body{
+    background-image: url("https://f.vividscreen.info/soft/5e294568e99a903ea79eb180aba844fd/Skateboard-Logos-1170x2532.jpg");
+    background-size: cover;
+    background-repeat:no-repeat;
+    background-position: center center;
+    color: rgba(255, 255, 255, 0.856);
+    font-size: large;
+}
+.anim{
+    width: 70%;
+    background-color: rgba(red, green, blue, alpha);
+    color: white;
+    text-align: center;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    animation: anima_cion 5s alternate infinite;
+    font-size: large;
+    border: 120px;
+    border-radius: 30px;
+}
+
+.clase button{
+    width: 250px;
+    height: 20px;
+}
+
+footer{
+    text-align: center;
+}
+
+.button img{
+    float: left;
+    width: 50px;
+    height: 40px;
+    }
