@@ -1,10 +1,10 @@
 //problema 1
 function problema1(){
     var up = document.querySelector('#p1-input').value;
-    var ar = input.split(' ').reverse();
+    var ar = up.split(' ').reverse();
     var res = '';
     ar.forEach(function(pal, x){
-        if(x !=0  !=ar.length) res += '';
+        if(x !=0  !=ar.length) res += ' ';
         res += pal;
     });
     document.querySelector('#p1-output').textContent = res;

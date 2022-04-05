@@ -1,0 +1,15 @@
+*{
+    background-color: darkolivegreen;
+}
+
+td{
+    border-bottom: 1px solid #c3c3c3;
+    padding-bottom: 1rem;
+    border-left: 1px solid #c3c3c3;
+}
+
+th{
+    border-bottom: 1px solid #c3c3c3;
+    padding-bottom: 1rem;
+    border-left: 1px solid #c3c3c3;
+}
